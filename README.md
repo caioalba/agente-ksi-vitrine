@@ -1,4 +1,4 @@
-# Agente KSI — Automação de Cargas, Restauração e Disponibilização para BI
+# Agente KSI : Automação de Cargas, Restauração e Disponibilização para BI
 
 > **Repositório vitrine.** Apenas apresentação do projeto. O código-fonte é privado. Autor: Caio Alba de Camargo.
 
@@ -96,8 +96,8 @@ flowchart TD
 ## 9. Resultados e benefícios
 
 - **Autonomia Completa:** Eliminação total da necessidade de intervenção humana diária para extrair e restaurar bases de dados pesadas.
-- **Janela de Processamento Reduzida:** O paralelismo entre MySQL e SQL Server aliado ao streaming descompactado reduziu o tempo total do pipeline para cerca de 30 minutos na madrugada.
-- **Disponibilidade Imediata para Decisores:** Relatórios gerenciais e dashboards estratégicos ficam 100% atualizados antes do início das atividades das equipes de negócios.
+- **Janela de Processamento Reduzida:** O paralelismo entre MySQL e SQL Server aliado ao streaming descompactado reduz a janela de processamento noturno.
+- **Disponibilidade Imediata para Decisores:** Relatórios gerenciais e dashboards estratégicos podem ser atualizados antes do início das atividades das equipes de negócios.
 - **Eliminação de Indisponibilidade no BI:** A recomposição programática de permissões pós-restauração extinguiu os incidentes em que o Power BI perdia conexão com o banco restaurado.
 - **Economia Significativa de Disco:** A ausência de dumps intermediários descompactados economizou dezenas de gigabytes diários em armazenamento de estado sólido.
 
@@ -109,5 +109,7 @@ flowchart TD
 - **Monitoramento de Deriva Estrutural (Schema Drift):** Criação de validador contratual que compara previamente a estrutura das tabelas restauradas com o modelo de dados homologado, alertando a equipe técnica sobre alterações de colunas pelo fornecedor do ERP.
 
 ---
+
+Portfólio: [maiko-ia.com.br](https://maiko-ia.com.br)
 
 Autor: [Caio Alba de Camargo](https://github.com/caioalba)
